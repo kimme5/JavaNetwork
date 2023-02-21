@@ -29,7 +29,6 @@ public class RemoteObjAndServer extends UnicastRemoteObject implements RemoteIF 
 
 	public static void main(String[] args) {
 
-		String rmiString = null;
 		try {
 			// 盔拜 按眉狼 按眉 积己
 			RemoteIF remoteObj = new RemoteObjAndServer();
@@ -38,6 +37,7 @@ public class RemoteObjAndServer extends UnicastRemoteObject implements RemoteIF 
 		} catch(Exception e) {
 			System.err.println("Couldn't successfully register remote object " + e);
 		}
+	
 	}
 
 }

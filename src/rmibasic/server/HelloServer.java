@@ -1,4 +1,4 @@
-package rmiserver;
+package rmibasic.server;
 
 import java.net.MalformedURLException;
 import java.rmi.Naming;

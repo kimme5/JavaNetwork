@@ -1,11 +1,11 @@
-package rmiclient;
+package rmibasic.client;
 
 import java.net.MalformedURLException;
 import java.rmi.Naming;
 import java.rmi.NotBoundException;
 import java.rmi.RemoteException;
 
-import rmiserver.Hello;
+import rmibasic.server.Hello;
 
 /* ------------------------------------------------------------------------------------------------------------------------
  * RMI 클라이언트 Application : HelloClient
